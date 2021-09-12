@@ -2,7 +2,7 @@
  * @author cc
  * @description jscodeshift 批量替换监控上报的 demo
  *
- * npx jscodeshift --extensions=js,jsx,ts,tsx --parser=tsx -t src/sendGoldlog.js  ./code
+ * npx jscodeshift --extensions=js,jsx,ts,tsx --parser=tsx -t src/core/sendGoldlog.js  ./code
  */
 
 const SPLIT_VALUE = {
