@@ -1,0 +1,28 @@
+{
+  "name": "commander.js-demo",
+  "version": "1.0.0",
+  "description": "commander demo",
+  "main": "index.js",
+  "bin": {
+    "ccc1l": "./bin/ccc1l.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specicccfied\" && exit 1"
+  },
+  "keywords": [],
+  "repository": "https://github.com/ooo1l/summary",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "commander": "^8.2.0",
+    "del": "^6.0.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.2",
+    "inquirer": "^8.1.2",
+    "lolcatjs": "^2.4.1",
+    "ora": "^5.4.1",
+    "shell": "^0.8.4",
+    "shelljs": "^0.8.4"
+  }
+}
