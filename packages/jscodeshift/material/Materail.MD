@@ -20,12 +20,11 @@ https://tianqi.name/blog/2018/01/12/jscodeshift.html
 
 https://www.cnblogs.com/axes/p/7694041.html
 
-
 ## Write Code to Rewrite Your Code: jscodeshift
 
 https://www.toptal.com/javascript/write-code-to-rewrite-your-code
 
-``` JavaScript
+```JavaScript
 // 很好的例子的文章，下面是关于 object 操作的示例代码
 return root.find(j.CallExpression, {
     callee: {
@@ -60,3 +59,15 @@ return root.find(j.CallExpression, {
     return node;
 })
 ```
+
+## jscodeshift 那点秘密
+
+https://juejin.cn/post/6991349946381238303
+
+jscodeshift 的源码分析【还没看，后续深入了解源码的使用再看】
+
+## 为啥套娃？聊聊 babel、jscodeshift 和阿里妈妈的 gogocode
+
+https://juejin.cn/post/6977768176146710558
+
+babel、jscodeshift 的对比【babel 还不熟悉，后续了解 babel 的使用后再来看这篇文章】
